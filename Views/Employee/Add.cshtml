@@ -1,0 +1,26 @@
+﻿@model CrudDemo.Models.AddEmployee
+@{
+}
+<form method="post" action="Add">
+    <div class="mb-3">
+        <label class="form-label">First Name</label>
+        <input type="text" class="form-control" id="FirstName" asp-for="FirstName">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">LastName</label>
+        <input type="text" class="form-control" id="LastName" asp-for="LastName">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Role</label>
+        <input type="text" class="form-control" id="Role" asp-for="Role">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Phone Number</label>
+        <input type="number" class="form-control" id="Phone Number" asp-for="PhoneNum">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Salary</label>
+        <input type="number" class="form-control" id="Salary" asp-for="Salary">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
